@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2855AB1A21097B1800306F39 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AB1921097B1800306F39 /* FirstTableViewController.swift */; };
 		2866B8EE20F43C6B001F382A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866B8ED20F43C6B001F382A /* AppDelegate.swift */; };
 		2866B8F020F43C6B001F382A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866B8EF20F43C6B001F382A /* CameraViewController.swift */; };
 		2866B8F320F43C6B001F382A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2866B8F120F43C6B001F382A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2855AB1921097B1800306F39 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		2866B8EA20F43C6A001F382A /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2866B8ED20F43C6B001F382A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2866B8EF20F43C6B001F382A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2866B8EF20F43C6B001F382A /* CameraViewController.swift */,
 				2885118B20F54B410045E144 /* PreviewViewController.swift */,
 				2866B8F120F43C6B001F382A /* Main.storyboard */,
+				2855AB1921097B1800306F39 /* FirstTableViewController.swift */,
 				2866B8F420F43C6B001F382A /* Assets.xcassets */,
 				2866B8F620F43C6B001F382A /* LaunchScreen.storyboard */,
 				2866B8F920F43C6B001F382A /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2855AB1A21097B1800306F39 /* FirstTableViewController.swift in Sources */,
 				2866B8F020F43C6B001F382A /* CameraViewController.swift in Sources */,
 				2866B8EE20F43C6B001F382A /* AppDelegate.swift in Sources */,
 				2885118C20F54B410045E144 /* PreviewViewController.swift in Sources */,

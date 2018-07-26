@@ -13,11 +13,12 @@ import Photos
 class CameraViewController :UIViewController {
     
     func applyRoundCorner(_ object: AnyObject){
-        object.layer.cornerRadius = object.frame.size.width/2
+        object.layer.cornerRadius = (object.frame.size.width)/2
         object.layer.masksToBounds = true
     }
     
     
+    @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var imagePreview: UIImageView!
     
     @IBAction func Library(_ sender: Any) {
@@ -56,7 +57,7 @@ class CameraViewController :UIViewController {
    override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.applyRoundCorner(TakePhoto as AnyObject)
+    self.applyRoundCorner(cameraButton)
     setupCaptureSession()
     setupInputOutput()
     setupPreviewLayer()

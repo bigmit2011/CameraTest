@@ -34,14 +34,19 @@ class PreviewViewController: UIViewController {
         //let imageData = UIImagePNGRepresentation(Photo.image!)
         //let jpegImage = UIImageJPEGRepresentation(imageData, <#CGFloat#>)
         //let compressedImage = UIImage(data: imageData!)
-        UIImageWriteToSavedPhotosAlbum(image!,
-                        nil, nil, nil)
+        //UIImageWriteToSavedPhotosAlbum(image!,
+         //               nil, nil, nil)
         //let alert = UIAlertController(title: "Saved", message: "Your image has been saved", preferredStyle: .alert)
         //let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
         //alert.addAction(okAction)
         //self.present(alert, animated: true, completion: nil)
         dismiss(animated: true, completion: nil)
+        ///performSegue(withIdentifier: "test", sender: self)
     }
+    
+    //override func performSegue(withIdentifier identifier: String, sender:Any?) {
+        //
+    //}
 
 
 }
