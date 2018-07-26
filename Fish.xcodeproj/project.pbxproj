@@ -13,6 +13,7 @@
 		2866B8F320F43C6B001F382A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2866B8F120F43C6B001F382A /* Main.storyboard */; };
 		2866B8F520F43C6B001F382A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2866B8F420F43C6B001F382A /* Assets.xcassets */; };
 		2866B8F820F43C6B001F382A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2866B8F620F43C6B001F382A /* LaunchScreen.storyboard */; };
+		2878CDC4210A542E005E3F3A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878CDC3210A542E005E3F3A /* MainNavigationController.swift */; };
 		2885118C20F54B410045E144 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885118B20F54B410045E144 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2866B8F420F43C6B001F382A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2866B8F720F43C6B001F382A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2866B8F920F43C6B001F382A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2878CDC3210A542E005E3F3A /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		2885118B20F54B410045E144 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				2866B8EF20F43C6B001F382A /* CameraViewController.swift */,
 				2885118B20F54B410045E144 /* PreviewViewController.swift */,
 				2866B8F120F43C6B001F382A /* Main.storyboard */,
+				2878CDC3210A542E005E3F3A /* MainNavigationController.swift */,
 				2855AB1921097B1800306F39 /* FirstTableViewController.swift */,
 				2866B8F420F43C6B001F382A /* Assets.xcassets */,
 				2866B8F620F43C6B001F382A /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2878CDC4210A542E005E3F3A /* MainNavigationController.swift in Sources */,
 				2855AB1A21097B1800306F39 /* FirstTableViewController.swift in Sources */,
 				2866B8F020F43C6B001F382A /* CameraViewController.swift in Sources */,
 				2866B8EE20F43C6B001F382A /* AppDelegate.swift in Sources */,

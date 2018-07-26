@@ -41,12 +41,33 @@ class PreviewViewController: UIViewController {
         //alert.addAction(okAction)
         //self.present(alert, animated: true, completion: nil)
         dismiss(animated: true, completion: nil)
-        ///performSegue(withIdentifier: "test", sender: self)
+        navigateToTableView()
+        print("Sucess")
+        
+        
+        
     }
     
-    //override func performSegue(withIdentifier identifier: String, sender:Any?) {
-        //
-    //}
+    
+    private func navigateToTableView(){
+        let mainStoryboard = UIStoryboard(name: "Main"
+            , bundle: Bundle.main)
+        
+        
+        guard let mainNavigationVC = mainStoryboard.instantiateViewController(withIdentifier: "MainNavigationController") as? MainNavigationController else{
+            print("ERROR")
+            return
+        }
+        
+        present(mainNavigationVC, animated: true, completion: nil)
+            
+        
+            
+        
+        }
+    
+
+
 
 
 }
